@@ -112,8 +112,6 @@ Wire Wire Line
 Wire Wire Line
 	3100 3050 3100 1600
 Wire Wire Line
-	3100 1600 5550 1600
-Wire Wire Line
 	5550 1600 5550 2450
 Wire Wire Line
 	5550 2450 5450 2450
@@ -147,4 +145,20 @@ Wire Wire Line
 Wire Wire Line
 	3000 2850 4000 2850
 NoConn ~ 3000 2150
+Wire Wire Line
+	3650 1600 5550 1600
+Wire Wire Line
+	3100 1600 3650 1600
+Connection ~ 3650 1600
+$Comp
+L power:+5V #PWR0102
+U 1 1 600BA7A0
+P 3650 1600
+F 0 "#PWR0102" H 3650 1450 50  0001 C CNN
+F 1 "+5V" H 3665 1773 50  0000 C CNN
+F 2 "" H 3650 1600 50  0001 C CNN
+F 3 "" H 3650 1600 50  0001 C CNN
+	1    3650 1600
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
