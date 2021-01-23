@@ -44,7 +44,7 @@ def main():
     po.SetPlotFrameRef(False)
     po.SetPlotValue(True)
     po.SetPlotReference(True)
-    po.SetPlotInvisibleText(True)
+    po.SetPlotInvisibleText(False)
     po.SetPlotViaOnMaskLayer(True)
     po.SetExcludeEdgeLayer(False)
     #po.SetPlotPadsOnSilkLayer(PLOT_PADS_ON_SILK_LAYER)
