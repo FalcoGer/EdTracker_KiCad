@@ -1,7 +1,7 @@
 # EdTracker_KiCad
 Schematics for an EdTracker (DIY)  
-Get software (Arduino firmware sources, precompiled firmware and windows ui program) from https://github.com/brumster/EDTracker2  
-Get special arduino hardware libraries from https://github.com/brumster/EDTracker2
+Get software (Arduino firmware sources, documentation, precompiled firmware and windows ui program) from https://github.com/brumster/EDTracker2  
+Get special arduino hardware libraries from https://github.com/brumster/EDTracker2_ArduinoHardware
 
 Front:  
 ![front view](https://github.com/FalcoGer/EdTracker_KiCad/blob/master/front.png?raw=true)
